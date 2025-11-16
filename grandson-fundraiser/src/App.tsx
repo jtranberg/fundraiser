@@ -133,7 +133,34 @@ export default function App() {
 
         <footer className="footer">
           <p>Thank you for supporting our family and the team. 💙</p>
-        </footer>
+        
+  <p>© {new Date().getFullYear()} Capitals Fundraiser Tracker</p>
+
+  <p>
+    Built by{" "}
+    <a
+      href="https://www.appintelligence.ca" 
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <strong>App Intelligence</strong>
+    </a>{" "}
+    — a subsidiary of{" "}
+    <a
+      href="https://www.tranberginnovations.com"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <strong>Tranberg Innovations</strong>
+    </a>.
+  </p>
+
+  <div className="footer-links">
+    <a href="https://www.jaytranberg.com" target="_blank" rel="noopener noreferrer">Founder</a><br></br>
+    
+    <a href="mailto:tranberginnovations@gmail.com">Contact</a>
+  </div>
+</footer>
       </div>
     </div>
   );
