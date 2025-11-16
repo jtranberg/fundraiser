@@ -1,5 +1,5 @@
 // src/App.tsx
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import posterImage from "./assets/poster.jpg"; // your local poster
 
 const SALES_OPEN_DATE = new Date(2025, 11, 3, 0, 0, 0); // Dec 3, 2025 (month is 0-based)
