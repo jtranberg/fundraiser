@@ -83,7 +83,7 @@ export default function App() {
     <div className="app">
       <div className="card">
         <header className="header">
-          <h1>Grandson&apos;s Fundraiser</h1>
+          <h1>Cahs Raffle Fundraiser</h1>
           <p className="subtitle">
             Supporting the team with a prize draw on{" "}
             <strong>January 4, 2026 at 2:30 PM</strong>.
